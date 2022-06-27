@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/SlowKingV/conference-page#readme",
   "devDependencies": {
-    "hint": "^6.2.0"
+    "hint": "^7.0.1"
   }
 }
