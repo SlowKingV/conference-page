@@ -30,3 +30,26 @@
 #footer .logo {
   width: 3em;
 }
+
+@media (min-width: 768px) {
+  #partner .img {
+    width: 10%;
+  }
+
+  #footer {
+    padding-right: 5em;
+  }
+
+  #footer .left-box {
+    justify-content: flex-end;
+  }
+
+  #footer .logo {
+    width: 5em;
+    margin-right: 10em;
+  }
+
+  .notice br {
+    display: none;
+  }
+}

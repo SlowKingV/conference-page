@@ -1,7 +1,7 @@
 @import url('custom_properties.css');
 
 html {
-  font-size: 14px;
+  font-size: 18px;
   overflow-x: hidden;
 }
 
@@ -76,6 +76,10 @@ figure {
   margin: 0;
 }
 
+.d-none {
+  display: none !important;
+}
+
 .container {
   box-sizing: border-box;
   width: 100vw;
@@ -83,6 +87,6 @@ figure {
 
 .slogan {
   color: var(--main-active);
-  font-size: 1.4em;
+  font-size: var(--slogan-fs);
   font-style: normal;
 }

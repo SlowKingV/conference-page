@@ -19,8 +19,19 @@
 
 <body>
   <header>
-    <div class="toolbar"></div>
+    <div class="toolbar">
+      <ul class="items">
+        <li class="socials item">
+          <a href="#" class="link"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="link"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li class="item"><a href="#" class="link">English</a></li>
+        <li class="item"><a href="#" class="link">My Page</a></li>
+        <li class="item"><a href="#" class="link">Logout</a></li>
+      </ul>
+    </div>
     <nav class="main-menu">
+      <a href="index.html" class="img-wrap"><img class="logo" src="./assets/logo.png" alt=""></a>
       <div class="nav-container">
         <ul class="links">
           <li class="link-wrap"><a href="index.html" class="link">Home</a></li>
@@ -30,9 +41,8 @@
         </ul>
       </div>
       <div class="burger-icon" id="menu-btn">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark d-none"></i>
       </div>
     </nav>
   </header>
@@ -48,36 +58,36 @@
       <h2 class="program-title">Main Program</h2>
       <ul class="program-events">
         <li class="event">
-          <img src="./assets/program_icon_01.png" alt="" class="icon">
-          <h3 class="name">Conference</h3>
-          <p class="description">Listen to music producers and aritst talk about their way to the top.</p>
+          <img src="./assets/program_icon_01.png" alt="" class="icon event-info">
+          <h3 class="name event-info">Conference</h3>
+          <p class="description event-info">Listen to music producers and aritst talk about their way to the top.</p>
         </li>
         <li class="event">
-          <img src="./assets/program_icon_02.png" alt="" class="icon">
-          <h3 class="name">Exhibiton</h3>
-          <p class="description">Appreciate the different instruments and merchandising from your favorite idols.</p>
+          <img src="./assets/program_icon_02.png" alt="" class="icon event-info">
+          <h3 class="name event-info">Exhibiton</h3>
+          <p class="description event-info">Appreciate the different instruments and merchandising from your favorite idols.</p>
         </li>
         <li class="event">
-          <img src="./assets/program_icon_03.png" alt="" class="icon">
-          <h3 class="name">Forum</h3>
-          <p class="description">Have the time to share your thoughts and opinions with all the community online.</p>
+          <img src="./assets/program_icon_03.png" alt="" class="icon event-info">
+          <h3 class="name event-info">Forum</h3>
+          <p class="description event-info">Have the time to share your thoughts and opinions with all the community online.</p>
         </li>
         <li class="event">
-          <img src="./assets/program_icon_04.png" alt="" class="icon">
-          <h3 class="name">Workshop</h3>
-          <p class="description">Try to produce your own music using the different sample some of our featured producers made specially for the event.</p>
+          <img src="./assets/program_icon_04.png" alt="" class="icon event-info">
+          <h3 class="name event-info">Workshop</h3>
+          <p class="description event-info">Try to produce your own music using the different sample some of our featured producers made specially for the event.</p>
         </li>
         <li class="event">
-          <img src="./assets/program_icon_05.png" alt="" class="icon">
-          <h3 class="name">Retro Ignite</h3>
-          <p class="description">Get opportunities to network with RE affiliates around the world, also after the festival.</p>
+          <img src="./assets/program_icon_05.png" alt="" class="icon event-info">
+          <h3 class="name event-info">Retro Ignite</h3>
+          <p class="description event-info">Get opportunities to network with RE affiliates around the world, also after the festival.</p>
         </li>
       </ul>
       <a href="javascript:void(0)" class="see-more">SEE THE WHOLE PROGRAM</a>
     </section>
     <section id="featured">
       <h2>Featured Artists</h2>
-      <ul class="astists-list">
+      <ul class="artists-list">
         <li class="artist">
           <figure class="img-wrap"><img src="https://via.placeholder.com/300.png" alt="" class="img"></figure>
           <div class="info">
@@ -141,7 +151,10 @@
     </section>
     <footer id="footer">
       <div class="left-box"><img src="./assets/logo.png" alt="" class="logo"></div>
-      <div class="right-box"><p class="notice">2022 Retro Electric.<br>Some Rights Reserved.</p></div>
+      <div class="right-box">
+        <p class="notice">2022 Retro Electric. <br>Some Rights Reserved.</p>
+        <p class="extra-notice">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cumque hic eos, ipsum ullam facere distinctio maiores quibusdam consectetur reprehenderit vel qui modi fuga odit nam accusantium ducimus sit commodi.</p>
+      </div>
     </footer>
   </main>
 

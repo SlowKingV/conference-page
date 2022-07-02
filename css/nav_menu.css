@@ -1,9 +1,18 @@
+.toolbar {
+  display: none;
+}
+
 .main-menu {
   position: relative;
 }
 
+.main-menu .logo {
+  display: none;
+}
+
 .nav-container {
-  background-color: #000;
+  background-color: var(--dark-bg);
+  box-sizing: border-box;
   font-family: var(--title1-ff);
   height: 100vh;
   left: 0;
@@ -14,8 +23,12 @@
   z-index: -100;
 }
 
+.nav-container .link-wrap {
+  margin-bottom: 1em;
+}
+
 .nav-container .links {
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 .nav-container .link {
@@ -25,27 +38,90 @@
   text-decoration: none;
 }
 
-.nav-container .link:hover {
-  color: var(--main-active);
+.link:hover {
+  color: var(--main-active) !important;
 }
 
 .burger-icon {
+  align-items: center;
   background-color: #ffffff60;
+  color: #000;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  height: 1.7em;
-  justify-content: space-between;
+  font-size: 1.5em;
+  height: 1em;
+  justify-content: center;
   left: 1em;
-  margin-left: 5px;
   padding: 0.4em;
   position: fixed;
   top: 1em;
-  width: 1.9em;
+  width: 1em;
   z-index: 100;
 }
 
-.bar {
-  background-color: var(--dark-bg);
-  height: 20%;
+@media (min-width: 768px) {
+  .toolbar {
+    background-color: var(--section-bg);
+    display: block
+  }
+
+  .socials .link {
+    font-size: var(--small-links-fs);
+    margin: 0 0.3em;
+  }
+
+  .items {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.4em;
+    margin: 0 auto;
+    max-width: var(--desktop-max-width);
+    padding: 0.5em 0;
+  }
+
+  .toolbar .link {
+    color: var(--light-text);
+    text-decoration: none;
+  }
+
+  .main-menu {
+    display: flex;
+    height: 5em;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: var(--desktop-max-width);
+  }
+
+  .main-menu .logo {
+    display: block;
+    height: 100%;
+  }
+
+  .nav-container {
+    align-items: center;
+    background-color: unset;
+    display: flex;
+    height: unset;
+    padding: 0;
+    position: static;
+    width: unset;
+    z-index: unset;
+  }
+
+  .nav-container .links {
+    display: flex;
+    gap: 4em;
+    margin: 0;
+  }
+
+  .nav-container .link {
+    color: var(--dark-text);
+    font-size: var(--small-links-fs);
+    font-weight: 600;
+  }
+
+  .burger-icon {
+    display: none;
+  }
 }

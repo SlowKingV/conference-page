@@ -109,3 +109,67 @@
   color: var(--main-active);
   margin-left: 0.5em;
 }
+
+@media (min-width: 768px) {
+  .container {
+    background: url('../assets/main_big.png') top no-repeat, var(--splash-bg);
+  }
+  
+  #headline {
+    margin: 0 auto 6em auto;
+    max-width: var(--desktop-max-width);
+  }
+
+  .boxed {
+    margin-bottom: 3em;
+    max-width: 560px;
+  }
+
+  .program-events {
+    flex-direction: row;
+    gap: 0.3em;
+    height: 13em;
+    margin: 0 auto 4em auto;
+    max-width: var(--desktop-max-width);
+  }
+
+  .program-events .event {
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    padding: 1em;
+    width: 20%;
+    height: 100%;
+  }
+
+  .event .icon, .event .name {
+    margin-bottom: 1em;
+  }
+
+  .event .name {
+    flex: none;
+  }
+
+  .event .description {
+    text-align: center;
+  }
+
+  .event-info {
+    margin: 0;
+  }
+
+  .artists-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: var(--desktop-max-width);
+  }
+
+  .artist {
+    width: 50%;
+  }
+
+  .more {
+    display: none;
+  }
+}

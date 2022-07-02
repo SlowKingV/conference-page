@@ -1,11 +1,13 @@
 :root {
   /* Font Properties */
-  --nav-links-fs: 2em;
+  --nav-links-fs: 1.7em;
+  --small-links-fs: 1em;
   --title1-ff: 'Open Sans', sans-serif;
   --title1-fs: 2.6em;
   --title2-fs: 1.2em;
   --title2-fw: 600;
   --title3-fs: 1.1em;
+  --slogan-fs: 1.4em;
   --subtitle-fs: 0.8em;
   --description-fs: 0.7em;
   --content-ff: 'Lato', sans-serif;
@@ -28,4 +30,12 @@
 
   /* Spacing */
   --root-padding: 1em;
+  --desktop-max-width: 1024px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --title1-fs: 3.8em;
+    --slogan-fs: 1.8em
+  }
 }
