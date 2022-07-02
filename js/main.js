@@ -71,7 +71,7 @@ const artists = [
 const buildCardHTML = (artist) => {
   return `
   <li class="artist">
-    <figure class="img-wrap"><img src="../assets/artists/${artist.image}" alt="Picture of ${artist.name}" class="img"></figure>
+    <figure class="img-wrap"><img src="./assets/artists/${artist.image}" alt="Picture of ${artist.name}" class="img"></figure>
     <div class="info">
       <h3 class="name">${artist.name}</h3>
       <em class="subtitle">${artist.title}</em>
