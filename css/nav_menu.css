@@ -63,7 +63,7 @@
 @media (min-width: 768px) {
   .toolbar {
     background-color: var(--section-bg);
-    display: block
+    display: block;
   }
 
   .socials .link {

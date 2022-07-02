@@ -15,7 +15,6 @@
   --paragraph-lh: 1.6;
   --strong-fs: 1.6em;
 
-
   /* Colors */
   --main-active: #ff4125;
   --light-text: #fff;
@@ -36,6 +35,6 @@
 @media (min-width: 768px) {
   :root {
     --title1-fs: 3.8em;
-    --slogan-fs: 1.8em
+    --slogan-fs: 1.8em;
   }
 }

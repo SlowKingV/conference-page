@@ -1,8 +1,13 @@
 @import url('custom_properties.css');
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 html {
   font-size: 18px;
-  overflow-x: hidden;
 }
 
 body {
@@ -10,7 +15,6 @@ body {
   color: var(--em-text);
   font-family: var(--content-ff);
   margin: 0;
-  overflow-x: hidden;
   padding: 0;
   width: 100vw;
 }

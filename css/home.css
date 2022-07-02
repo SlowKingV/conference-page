@@ -114,7 +114,7 @@
   .container {
     background: url('../assets/main_big.png') top no-repeat, var(--splash-bg);
   }
-  
+
   #headline {
     margin: 0 auto 6em auto;
     max-width: var(--desktop-max-width);
@@ -142,7 +142,8 @@
     height: 100%;
   }
 
-  .event .icon, .event .name {
+  .event .icon,
+  .event .name {
     margin-bottom: 1em;
   }
 
