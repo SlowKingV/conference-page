@@ -80,6 +80,10 @@ figure {
   display: none !important;
 }
 
+.extra {
+  display: none;
+}
+
 .container {
   box-sizing: border-box;
   width: 100vw;
@@ -89,4 +93,14 @@ figure {
   color: var(--main-active);
   font-size: var(--slogan-fs);
   font-style: normal;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+
+  .extra {
+    display: unset;
+  }
 }

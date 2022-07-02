@@ -72,3 +72,38 @@ h2 {
 .festival {
   width: 100%;
 }
+
+@media (min-width: 768px) {
+  #headline {
+    margin: 0 auto 1em auto;
+    max-width: var(--desktop-max-width);
+    padding-bottom: 3em;
+  }
+
+  .slogan {
+    display: none;
+  }
+
+  .boxed {
+    margin-bottom: 3em;
+  }
+
+  #logo {
+    padding: 3em 1em;
+  }
+
+  #logo * {
+    max-width: var(--desktop-max-width);
+  }
+
+  #past {
+    padding: 3em 1em;
+  }
+
+  .festivals {
+    flex-direction: row;
+    margin: 1em auto;
+    max-width: var(--desktop-max-width);
+    padding-top: 3em;
+  }
+}

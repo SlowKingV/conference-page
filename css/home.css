@@ -161,12 +161,13 @@
   .artists-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
     margin: 0 auto;
     max-width: var(--desktop-max-width);
   }
 
   .artist {
-    width: 50%;
+    width: calc(50% - 0.5em);
   }
 
   .more {

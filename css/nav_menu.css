@@ -115,6 +115,10 @@
     margin: 0;
   }
 
+  .nav-container .link-wrap {
+    margin: 0;
+  }
+
   .nav-container .link {
     color: var(--dark-text);
     font-size: var(--small-links-fs);
