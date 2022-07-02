@@ -1,0 +1,74 @@
+h1 {
+  margin-top: 0.5em;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+.container {
+  background-color: var(--splash-bg);
+}
+
+#headline {
+  padding-top: 6em;
+}
+
+.slogan {
+  margin-bottom: 1em;
+}
+
+.boxed {
+  background-color: #fff;
+  border: 1px solid var(--button-br);
+  padding: 1em;
+}
+
+.contact {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.email {
+  color: var(--dark-text);
+  font-weight: 700;
+  font-size: var(--paragraph-fs);
+}
+
+#logo {
+  background-color: #fff;
+}
+
+#logo .title {
+  width: 70%;
+}
+
+#logo .description {
+  margin: 1em auto 3em auto;
+  width: 70%;
+}
+
+#logo .logo {
+  border: 1px solid var(--splash-bg);
+  height: 12em;
+}
+
+#past {
+  background-color: #fff;
+  border-top: 2px solid var(--splash-bg);
+}
+
+#past .description {
+  margin: 1em auto;
+}
+
+.festivals {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.festival {
+  width: 100%;
+}

@@ -35,6 +35,7 @@ h1 {
   font-family: var(--title1-ff);
   font-size: var(--title1-fs);
   line-height: 1;
+  margin-top: 0;
 }
 
 h2 {
@@ -78,4 +79,10 @@ figure {
 .container {
   box-sizing: border-box;
   width: 100vw;
+}
+
+.slogan {
+  color: var(--main-active);
+  font-size: 1.4em;
+  font-style: normal;
 }
