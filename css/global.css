@@ -12,6 +12,14 @@ body {
   padding: 0;
 }
 
+main {
+  transition: transform 0.3s;
+}
+
+main.move-out {
+  transform: translateX(70vw);
+}
+
 section {
   padding: var(--root-padding);
   text-align: center;

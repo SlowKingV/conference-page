@@ -1,5 +1,6 @@
 :root {
   /* Font Properties */
+  --nav-links-fs: 2em;
   --title1-ff: 'Open Sans', sans-serif;
   --title1-fs: 2.6em;
   --title2-fs: 1.2em;

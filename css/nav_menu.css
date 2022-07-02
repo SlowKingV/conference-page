@@ -1,8 +1,32 @@
-header {
+.main-menu {
+  position: relative;
+}
+
+.nav-container {
+  background-color: #000;
+  font-family: var(--title1-ff);
+  height: 100vh;
   left: 0;
   padding: var(--root-padding);
   position: fixed;
   top: 0;
+  width: 70vw;
+  z-index: -100;
+}
+
+.nav-container .links {
+  margin-top: 3em;
+}
+
+.nav-container .link {
+  color: var(--light-text);
+  font-size: var(--nav-links-fs);
+  font-weight: var(--title1-fw);
+  text-decoration: none;
+}
+
+.nav-container .link:hover {
+  color: var(--main-active);
 }
 
 .burger-icon {
@@ -11,9 +35,13 @@ header {
   flex-direction: column;
   height: 1.7em;
   justify-content: space-between;
+  left: 1em;
   margin-left: 5px;
   padding: 0.4em;
+  position: fixed;
+  top: 1em;
   width: 1.9em;
+  z-index: 100;
 }
 
 .bar {
