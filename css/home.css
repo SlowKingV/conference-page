@@ -167,7 +167,17 @@
   }
 
   .artist {
-    width: calc(50% - 0.5em);
+    border: 1px solid var(--button-br);
+    width: calc(50% - 0.5em - 2px);
+  }
+
+  .artist .img-wrap {
+    height: 100%;
+  }
+
+  .artist .img {
+    height: 100%;
+    object-fit: cover;
   }
 
   .more {
