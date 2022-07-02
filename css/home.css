@@ -35,7 +35,8 @@
   align-items: center;
   background-color: var(--events-bg);
   display: flex;
-  gap: 1em;
+  gap: 0.8em;
+  justify-content: space-between;
   padding: 0 1em;
 }
 
@@ -45,7 +46,7 @@
 
 .event .name {
   color: var(--main-active);
-  flex: 0 0 30%;
+  flex: 0 0 35%;
 }
 
 .event .description {
@@ -70,11 +71,25 @@
 
 .artist .img-wrap {
   flex: none;
+  height: 100%;
   width: 8em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.artist .checker {
+  position: relative;
+  top: -39px;
+  left: 69px;
+  width: 60%;
+  z-index: 0;
 }
 
 .artist .img {
-  width: 100%;
+  width: 90%;
+  z-index: 10;
 }
 
 .artist .info {
@@ -128,7 +143,7 @@
   .program-events {
     flex-direction: row;
     gap: 0.3em;
-    height: 13em;
+    height: 14em;
     margin: 0 auto 4em auto;
     max-width: var(--desktop-max-width);
   }
@@ -136,7 +151,7 @@
   .program-events .event {
     flex-direction: column;
     gap: 0;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 1em;
     width: 20%;
     height: 100%;
@@ -168,17 +183,15 @@
   }
 
   .artist {
-    border: 1px solid var(--button-br);
     width: calc(50% - 0.5em - 2px);
   }
 
-  .artist .img-wrap {
-    height: 100%;
-  }
-
-  .artist .img {
-    height: 100%;
-    object-fit: cover;
+  .artist .checker {
+    position: relative;
+    top: -43px;
+    left: 77px;
+    width: 60%;
+    z-index: 0;
   }
 
   .more {
