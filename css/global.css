@@ -20,13 +20,11 @@ body {
 }
 
 main {
-  position: absolute;
-  left: 0;
-  transition: left 0.3s;
+  transition: filter 0.3s;
 }
 
-main.move-out {
-  left: 70vw;
+main.overshadow {
+  filter: blur(5px);
 }
 
 section {

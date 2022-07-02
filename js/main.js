@@ -1,29 +1,33 @@
-const mainContainer = document.getElementById('main-container');
+const navContainer = document.querySelector('.nav-container');
 const menuBtn = document.getElementById('menu-btn');
+const mainContent = document.getElementById('main-container');
 
 const menuClosers = Array.from(document.querySelectorAll('.nav-container .link'));
-menuClosers.push(mainContainer);
+menuClosers.push(navContainer);
+menuClosers.push(mainContent);
 
 const menuBtnToggle = () => {
   const [openIcon, closeIcon] = menuBtn.children;
 
-  if (mainContainer.classList.contains('move-out')) {
+  if (navContainer.classList.contains('active')) {
     openIcon.classList.add('d-none');
     closeIcon.classList.remove('d-none');
+    mainContent.classList.add('overshadow');
   } else {
     openIcon.classList.remove('d-none');
     closeIcon.classList.add('d-none');
+    mainContent.classList.remove('overshadow');
   }
 };
 
 menuBtn.addEventListener('click', () => {
-  mainContainer.classList.toggle('move-out');
+  navContainer.classList.toggle('active');
   menuBtnToggle();
 });
 
 menuClosers.forEach((element) => {
   element.addEventListener('click', () => {
-    mainContainer.classList.remove('move-out');
+    navContainer.classList.remove('active');
     menuBtnToggle();
   });
 });

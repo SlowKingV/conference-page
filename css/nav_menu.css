@@ -11,16 +11,22 @@
 }
 
 .nav-container {
+  backdrop-filter: blur(5px);
   background-color: var(--dark-bg);
   box-sizing: border-box;
   font-family: var(--title1-ff);
   height: 100vh;
-  left: 0;
+  left: -70%;
   padding: var(--root-padding);
   position: fixed;
   top: 0;
+  transition: left 0.3s;
   width: 70vw;
-  z-index: -100;
+  z-index: 100;
+}
+
+.nav-container.active {
+  left: 0;
 }
 
 .nav-container .link-wrap {
@@ -57,7 +63,7 @@
   position: fixed;
   top: 1em;
   width: 1em;
-  z-index: 100;
+  z-index: 110;
 }
 
 @media (min-width: 768px) {
