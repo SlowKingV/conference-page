@@ -4,14 +4,16 @@
 }
 
 #partner .img-wrap {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.2em;
+  gap: 2em;
+  margin: 2em 0;
 }
 
 #partner .img {
-  width: 30%;
+  width: 25%;
 }
 
 #footer {
