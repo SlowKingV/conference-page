@@ -1,0 +1,68 @@
+@import url(_custom_properties.css);
+
+html {
+  font-size: 14px;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--em-text);
+  font-family: var(--content-ff);
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: var(--root-padding);
+  text-align: center;
+}
+
+h1 {
+  color: var(--main-active);
+  font-family: var(--title1-ff);
+  font-size: var(--title1-fs);
+  line-height: 1;
+}
+
+h2 {
+  font-family: var(--title1-ff);
+  font-size: var(--title2-fs);
+  font-weight: var(--title2-fw);
+}
+
+h2::after {
+  background-color: var(--main-active);
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0.5em auto 0 auto;
+  width: 2em;
+}
+
+h3 {
+  font-size: var(--title3-fs);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  font-size: var(--paragraph-fs);
+  line-height: var(--paragraph-lh);
+}
+
+strong {
+  font-family: var(--title1-ff);
+  font-size: var(--strong-fs);
+}
+
+figure {
+  margin: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100vw;
+}

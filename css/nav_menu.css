@@ -1,0 +1,24 @@
+@import url(_custom_properties.css);
+
+header {
+  left: 0;
+  padding: var(--root-padding);
+  position: fixed;
+  top: 0;
+}
+
+.burger-icon {
+  background-color: #ffffff60;
+  display: flex;
+  flex-direction: column;
+  height: 1.7em;
+  justify-content: space-between;
+  margin-left: 5px;
+  padding: 0.4em;
+  width: 1.9em;
+}
+
+.bar {
+  background-color: var(--dark-bg);
+  height: 20%;
+}

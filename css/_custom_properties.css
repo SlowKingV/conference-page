@@ -1,0 +1,30 @@
+:root {
+  /* Font Properties */
+  --title1-ff: 'Open Sans', sans-serif;
+  --title1-fs: 2.6em;
+  --title2-fs: 1.2em;
+  --title2-fw: 600;
+  --title3-fs: 1.1em;
+  --subtitle-fs: 0.8em;
+  --description-fs: 0.7em;
+  --content-ff: 'Lato', sans-serif;
+  --paragraph-fs: 0.8em;
+  --paragraph-lh: 1.6;
+  --strong-fs: 1.6em;
+
+
+  /* Colors */
+  --main-active: #ff4125;
+  --light-text: #fff;
+  --dark-text: #1d1d1d;
+  --em-text: #565656;
+  --splash-bg: #f5f5f5;
+  --section-bg: #3e3e3e;
+  --body-bg: #f8f8f8;
+  --dark-bg: #272a31;
+  --events-bg: #ffffff1a;
+  --button-br: #d1d1d1;
+
+  /* Spacing */
+  --root-padding: 1em;
+}

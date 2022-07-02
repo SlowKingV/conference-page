@@ -1,0 +1,121 @@
+h1 {
+  margin-top: 0;
+}
+
+.container {
+  background: url('../assets/main_big.png') top/250% no-repeat, var(--splash-bg);
+}
+
+#headline {
+  padding-top: 6em;
+  text-align: left;
+}
+
+.slogan {
+  color: var(--main-active);
+  font-size: 1.4em;
+  font-style: normal;
+}
+
+.boxed {
+  background-color: var(--splash-bg);
+  border: 2px solid #fff;
+  padding: 1em;
+}
+
+.place {
+  font-size: 1em;
+  margin-top: 0;
+}
+
+#program {
+  background: url('../assets/pattern.png'), var(--dark-bg);
+  color: var(--light-text);
+  padding-bottom: 4em;
+}
+
+.program-events {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  margin-bottom: 2em;
+}
+
+.event {
+  align-items: center;
+  background-color: var(--events-bg);
+  display: flex;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+.event .icon {
+  width: 3em;
+}
+
+.event .name {
+  color: var(--main-active);
+  flex: 0 0 30%;
+}
+
+.event .description {
+  text-align: left;
+}
+
+.see-more {
+  color: var(--light-text);
+}
+
+#featured {
+  color: var(--dark-text);
+  background-color: #fff;
+  padding-bottom: 2em;
+}
+
+.artist {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+
+.artist .img-wrap {
+  flex: none;
+  width: 8em;
+}
+
+.artist .img {
+  width: 100%;
+}
+
+.artist .info {
+  text-align: left;
+}
+
+.artist .name {
+  margin: 0.5em 0;
+}
+
+.artist .subtitle {
+  color: var(--main-active);
+  font-size: var(--subtitle-fs);
+}
+
+.artist .description {
+  font-size: var(--description-fs);
+}
+
+.more {
+  background-color: #fff;
+  border: 1px solid var(--button-br);
+  display: block;
+  font-family: var(--title1-ff);
+  font-size: var(--subtitle-fs);
+  font-weight: 500;
+  padding: 1em 0;
+  width: 100%;
+}
+
+.more .fa-solid {
+  color: var(--main-active);
+  margin-left: 0.5em;
+}
