@@ -1,5 +1,9 @@
 @import url('custom_properties.css');
 
+:root {
+  overflow-x: hidden;
+}
+
 html {
   font-size: 14px;
 }
@@ -13,11 +17,13 @@ body {
 }
 
 main {
-  transition: transform 0.3s;
+  position: absolute;
+  left: 0;
+  transition: left 0.3s;
 }
 
 main.move-out {
-  transform: translateX(70vw);
+  left: 70vw;
 }
 
 section {
